@@ -1,9 +1,11 @@
 (ns user)
 
 (comment
-
+  
   (require '[mentat.clerk-utils.build :as mentat-clerk])
   (mentat-clerk/serve! {:cljs-namespaces ['jaydeesimon.viewer]})
+  
+  
   (mentat-clerk/halt!)
 
 
