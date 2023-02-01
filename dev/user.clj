@@ -3,7 +3,7 @@
 (comment
   
   (require '[mentat.clerk-utils.build :as mentat-clerk])
-  (mentat-clerk/serve! {:cljs-namespaces ['jaydeesimon.viewer]})
+  (mentat-clerk/serve! {:cljs-namespaces ['jaydeesimon.viewer 'jaydeesimon.sci]})
   
   
   (mentat-clerk/halt!)
