@@ -7,4 +7,9 @@
   
   org.mentat/clerk-utils
   {:git/url "https://github.com/mentat-collective/clerk-utils.git"
-   :git/sha "1681208f9af7e644897008e79dc9f5af64f53b69"}}}
+   :git/sha "1681208f9af7e644897008e79dc9f5af64f53b69"}
+
+  io.github.nextjournal/clerk.render
+  {:git/url "https://github.com/nextjournal/clerk"
+   :git/sha "d387037aa45303c32e311b62580b6f85e0b72919"
+   :deps/root "render"}}}
