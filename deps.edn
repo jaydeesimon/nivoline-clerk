@@ -12,4 +12,7 @@
   io.github.nextjournal/clerk.render
   {:git/url "https://github.com/nextjournal/clerk"
    :git/sha "d387037aa45303c32e311b62580b6f85e0b72919"
-   :deps/root "render"}}}
+   :deps/root "render"}
+  
+  cheshire/cheshire
+  {:mvn/version "5.11.0"}}}

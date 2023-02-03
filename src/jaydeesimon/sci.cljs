@@ -2,11 +2,13 @@
   (:require [nextjournal.clerk.sci-env]
             [sci.ctx-store]
             [sci.core :as sci]
-            ["@nivo/line" :refer [ResponsiveLine]]))
+            ["@nivo/line" :refer [ResponsiveLine]]
+            ["@nivo/treemap" :refer [ResponsiveTreeMap]]))
 
 (sci.ctx-store/swap-ctx!
   sci/merge-opts
-  {:classes {'ResponsiveLine ResponsiveLine}
+  {:classes {'ResponsiveLine ResponsiveLine
+             'ResponsiveTreeMap ResponsiveTreeMap}
    :aliases    {'jdsv 'jaydeesimon.viewer}
    :namespaces
    {'jaydeesimon.viewer
